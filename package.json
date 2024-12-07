@@ -1,0 +1,30 @@
+{
+  "name": "rapidmern",
+  "version": "1.0.0",
+  "description": "RapidMERN is a command-line tool for generating a complete MERN stack boilerplate with Prisma and MySQL integration, enabling quick project setup for full-stack applications.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rapidmern": "./index.js"
+  },
+  "keywords": [
+    "mern",
+    "boilerplate",
+    "full-stack",
+    "prisma",
+    "mysql",
+    "generator",
+    "cli"
+  ],
+  "author": "Pottabathini Vivekananda",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "execa": "^9.5.1",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^12.1.0"
+  }
+}
